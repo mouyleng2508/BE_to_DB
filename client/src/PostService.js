@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-axios.defaults.baseURL = "http://fsd-bootcamp.herokuapp.com/api/tasklist/";
+axios.defaults.baseURL = "api/tasklist/";
 
 export default class PostService{
     
